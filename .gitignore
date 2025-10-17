@@ -1,0 +1,35 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Large or temporary data files
+*.h5
+*.pt
+*.onnx
+*.tflite
+*.ckpt
+*.pb
+*.db
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
