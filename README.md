@@ -1,10 +1,13 @@
 # 🧠 Real-Time Emotion Detection using OpenCV & DeepFace
+---
 ## 📘 Overview
 
 This project performs real-time human emotion detection from live webcam feed using OpenCV for face detection and DeepFace for emotion analysis.
 
 The system automatically detects faces in the video stream and classifies emotions such as:
 😄 happy, 😐 neutral, 😡 angry, 😢 sad, 😲 surprise, 😴 fear, and 😌 disgust
+
+---
 
 ## 🏗️ Tech Stack
 
@@ -59,4 +62,5 @@ python detection.py
 4️⃣ Quit
 
 Press ‘q’ to close the webcam window.
+
 
