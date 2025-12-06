@@ -35,14 +35,6 @@ The system draws a rectangle around each detected face and overlays the detected
 ## 💻 Project Workflow
 Webcam → Frame Capture → Face Detection → Emotion Prediction → Display Result
 
-## 📂 File Structure
-Project_Emotion_opencv/
-│
-├── detection.py # Main script
-├── haarcascade_frontalface_default.xml
-├── README.md # (this file)
-└── requirements.txt # Dependencies list (optional)
-
 ## 🚀 How to Run
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/Project_Emotion_opencv.git
@@ -50,10 +42,9 @@ cd Project_Emotion_opencv
 
 2️⃣ Install dependencies
 
-Make sure you have Python and pip installed.
-Then install all required libraries:
-
-pip install opencv-python deepface
+- Make sure you have Python and pip installed.
+- Then install all required libraries:
+   pip install opencv-python deepface
 
 3️⃣ Run the script
 
@@ -62,6 +53,7 @@ python detection.py
 4️⃣ Quit
 
 Press ‘q’ to close the webcam window.
+
 
 
 
